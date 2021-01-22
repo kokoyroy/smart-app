@@ -1,3 +1,6 @@
 .dashboardcontainer{
-
+width: 78vw;
+height: 80vh;
+/* border: black 1px solid; */
+margin: 30px auto
 }
