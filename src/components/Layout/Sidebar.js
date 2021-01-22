@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png'
 import SidebarItem from '../SidebarItems/SidebarItem'
 function Sidebar() {
     return (
-        <div className='col s2 sidebar'>
+        <div className='col s2 sidebar z-depth-5'>
             <div className="logo">
                 <img src={logo} alt="logo"  />
             </div> 
