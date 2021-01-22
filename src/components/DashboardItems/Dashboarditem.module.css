@@ -1,4 +1,4 @@
 .item{
-    max-width: 300px !important ;
-    max-height: 300px !important;
+    width: 85% !important ;
+    /* height: 300px !important; */
 }
