@@ -1,0 +1,9 @@
+.item {
+    color: black;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 16% 22%;
+    border-bottom: 1px black solid;
+    font-weight: bold;
+}
