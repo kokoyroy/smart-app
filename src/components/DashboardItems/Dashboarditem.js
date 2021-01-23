@@ -12,7 +12,6 @@ function Dashboarditem(props) {
     else if (props.foodType === 'vegan') { photo = vegan }
     else if (props.foodType === 'chinese') { photo = china }
     else { photo = food }
-console.log(props);
 
     return (
         <div className={`${style.item} card `}>
@@ -20,11 +19,14 @@ console.log(props);
                 <img className="activator" src={photo} alt='food img' />
             </div>
             <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
-                <p><a href="/">This is a link</a></p>
+                <span className="card-title activator grey-text text-darken-4">Southern Fried Chicken<i className="material-icons right">more_vert</i></span>
+                <p> <a href="/chicken/1234" class="waves-effect waves-light btn-small">Φτιαξε τη Συνταγη!</a></p>
+                
             </div>
             <div className="card-reveal">
-                <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+                <span className="card-title grey-text text-darken-4">Southern Fried Chicken<i className="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                <p>Here is some more information about this Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora rerum sint omnis aspernatur sunt labore? Alias aliquam ut iusto eos eius ad a repellat suscipit, incidunt possimus veritatis. Odio! product that is only revealed once clicked on.</p>
                 <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
         </div>

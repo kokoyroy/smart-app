@@ -11,6 +11,7 @@ function Sidebar() {
           <NavLink to='/chicken'><SidebarItem title={'meat lovers'}/></NavLink>
           <NavLink to='/chinese'><SidebarItem title={'chinese'}/></NavLink>
           <NavLink to='/vegan'><SidebarItem title={'vegan'}/></NavLink> 
+         
             
         </div>
     )

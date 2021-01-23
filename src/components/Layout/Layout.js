@@ -7,9 +7,6 @@ export class Layout extends Component {
         return (
             <div>
                 <div className="row">
-
-
-                    
                     <Sidebar/>
                     <Dashboard/>
                 </div>
