@@ -10,10 +10,12 @@ function Dashboard() {
             <DashboardHeader />
 
             <Switch>
-                <Route path='/chicken' exact render={() => <DashboardContainer foodType='chicken' />} />
-                <Route path='/vegan' exact render={() => <DashboardContainer foodType='vegan' />} />
-                <Route path='/chinese' exact render={() => <DashboardContainer foodType='chinese' />} />
-                <Route path='/chicken/:id' component={DashboardRecipy} />
+                <Route path='/menu_option_1' exact render={() => <DashboardContainer foodType='menu_option_1' />} />
+                <Route path='/menu_option_2' exact render={() => <DashboardContainer foodType='menu_option_2' />} />
+                <Route path='/menu_option_3' exact render={() => <DashboardContainer foodType='menu_option_3' />} />
+                <Route path='/test' exact render={() => <DashboardContainer foodType='test' />} />
+                <Route path='/menu_option_1/:id' component={DashboardRecipy} />
+                <Route path='/test' exact component={DashboardContainer} />
                 <Route path='/' exact component={DashboardContainer} />
             </Switch>
 
