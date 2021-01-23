@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.App{
+    height: 100vh;
+}
 .sidebar{
     /* border: 1px red solid; */
     height: 100vh;

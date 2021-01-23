@@ -1,16 +1,20 @@
 import React from 'react'
 import style from './DashboardContainer.module.css';
 import Dashboarditem from './Dashboarditem';
-function DashboardContainer() {
+
+
+
+
+function DashboardContainer(props) {
     return (
         <div className={`${style.dashboardcontainer}`}>
             <div className='row'>
-                <div className="col s4"><Dashboarditem /></div>
-                <div className="col s4"><Dashboarditem /></div>
-                <div className="col s4"><Dashboarditem /></div>
-                <div className="col s4"><Dashboarditem /></div>
-                <div className="col s4"><Dashboarditem /></div>
-                <div className="col s4"><Dashboarditem /></div>s 
+                <div className="col s4"><Dashboarditem foodType={props.foodType}/></div>
+                <div className="col s4"><Dashboarditem foodType={props.foodType}/></div>
+                <div className="col s4"><Dashboarditem foodType={props.foodType}/></div>
+                <div className="col s4"><Dashboarditem foodType={props.foodType}/></div>
+                <div className="col s4"><Dashboarditem foodType={props.foodType}/></div>
+                <div className="col s4"><Dashboarditem foodType={props.foodType}/></div>s 
 
             </div>
             <div className='row'>

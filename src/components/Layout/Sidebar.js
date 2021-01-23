@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import logo from '../../assets/logo.png'
 import SidebarItem from '../SidebarItems/SidebarItem'
 function Sidebar() {
@@ -7,9 +8,9 @@ function Sidebar() {
             <div className="logo">
                 <img src={logo} alt="logo"  />
             </div> 
-            <SidebarItem title={'menu #1'}/>
-            <SidebarItem title={'menu #2'}/>
-            <SidebarItem title={'menu #3'}/>
+          <NavLink to='/chicken'><SidebarItem title={'meat lovers'}/></NavLink>
+          <NavLink to='/chinese'><SidebarItem title={'chinese'}/></NavLink>
+          <NavLink to='/vegan'><SidebarItem title={'vegan'}/></NavLink> 
             
         </div>
     )
