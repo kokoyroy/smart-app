@@ -1,11 +1,12 @@
 .item {
-    color: black;
-    /* height: 100px; */
+    display: flex;
+    height: 100px;
     width: 100%;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px black solid;
-    font-weight: bold;
-    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black 1px solid;
+    font-weight: 600;
+    color: black;
+
 }
+

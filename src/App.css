@@ -9,6 +9,10 @@
 .sidebar{
     /* border: 1px red solid; */
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
     padding: 0 !important;
 }
 .dashboard{
@@ -20,18 +24,27 @@
 .logo{
     height: 100px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-bottom: black 1px solid;
 }
 .logo img{
-    margin: auto;
-    width: 80%;
+    /* margin: auto; */
+    /* width: 80%; */
     max-width: 165px;
-    display: block;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    height: 100%;
+    /* display: block; */
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
+    /* height: 100%; */
     
+}
+.logo a{
+    display: block;
 }
 .active{
     background-color: #1de9b6 !important;
+}
+.sidebar a{
+    width: 100%;
 }

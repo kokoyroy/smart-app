@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import logo from '../../assets/logo.png'
 import SidebarItem from '../SidebarItems/SidebarItem'
 function Sidebar() {
@@ -22,10 +22,10 @@ function Sidebar() {
 
 
     return (
-        <div className='col s2 sidebar z-depth-5'>
+        <div className='col s2 sidebar z-depth-5 '>
             {/* LOGO */}
             <div className="logo">
-                <NavLink to='/'><img src={logo} alt="logo" /></NavLink>
+                <div>  <Link to='/'><img src={logo} alt="logo" /></Link></div>
             </div>
             {/* LINKS */}
             {links ? links.map(link => (

@@ -3,7 +3,7 @@ import style from './SidebarItem.module.css'
 function SidebarItem(props) {
     return (
         <div className={style.item}>
-            {props.title}
+            <span>{props.title}</span>
         </div>
     )
 }
