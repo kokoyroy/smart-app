@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import style from './Dashboarditem.module.css';
 
 
-function Dashboarditem({description,imageUrl,title}) {
+function Dashboarditem({description,imageUrl,title,id}) {
    
 
     return (
@@ -12,7 +13,7 @@ function Dashboarditem({description,imageUrl,title}) {
             </div>
             <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">{title}<i className="material-icons right">more_vert</i></span>
-                <p> <a href="/menu_option_1/1234" className="waves-effect waves-light btn-small">Φτιαξε τη Συνταγη!</a></p>
+                <p> <Link to={`/recipy/${id}`} className="waves-effect waves-light btn-small">Φτιαξε τη Συνταγη!</Link></p>
                 
             </div>
             <div className="card-reveal">
@@ -27,3 +28,7 @@ function Dashboarditem({description,imageUrl,title}) {
 }
 
 export default Dashboarditem
+
+
+
+

@@ -1,3 +1,31 @@
-.recipy{
-    
+.recipy {
+    border: black 1px solid;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: lightgray;
+    /* opacity: 0.2; */
+    height: 80%;
+    width: 90%;
+    max-height: 756px;
+    max-width: 1530px;
+    display: flex;
+}
+.aristera {
+    border: hotpink 1px solid;
+   
+   
+}
+.wrapper {
+    text-align: center;
+    width: 80%;
+}
+.aristera img {
+    width: 50%;
+    border-radius: 25px;
+}
+
+.deksia {
+    width: 60%;
+    height: 100%;
+    border: springgreen 1px solid;
 }
